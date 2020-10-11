@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+import random
+import sys
+import os
+
+
+random.seed()    
+rand = random.randrange(1,len(sys.argv))
+
+os.system(sys.argv[rand])
+
+#print (sys.argv)
+#print (rand)
+
