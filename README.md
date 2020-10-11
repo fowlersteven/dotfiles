@@ -5,7 +5,7 @@ Custom dotfiles backups for my important apps
 termite \
 rofi \
 Thunar \
-xfce4 \
+xfce4 
 
 # Requirements
 exa
