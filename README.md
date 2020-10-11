@@ -8,7 +8,9 @@ Thunar \
 xfce4 
 
 ### Requirements
-exa
+exa \
+zenity \
+xsel
 
 ### distro
 manjaro xfce
