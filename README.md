@@ -10,7 +10,8 @@ xfce4
 ### Requirements
 exa \
 zenity \
-xsel
+xsel \
+chromium
 
 ### distro
 manjaro xfce
