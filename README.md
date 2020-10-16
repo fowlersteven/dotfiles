@@ -12,7 +12,8 @@ bashrc
 exa \
 zenity \
 xsel \
-chromium
+chromium \
+python3
 
 ### distro
 manjaro xfce
