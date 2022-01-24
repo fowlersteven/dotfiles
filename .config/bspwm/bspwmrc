@@ -1,1 +1,31 @@
+#! /bin/sh
 
+bspc monitor HDMI1 -d I II III IV V
+bspc monitor HDMI2 -d VI VII VIII IX X
+
+xinput map-to-output 21 HDMI1
+setxkbmap -option compose:rctrl
+
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+
+
+
+bspc config border_width         2
+bspc config window_gap           6
+bspc config focus_follows_pointer false
+
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+
+~/.screenlayout/normal.sh
+
+sleep 0.1
+picom &
+nitrogen --restore &
