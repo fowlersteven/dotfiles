@@ -10,7 +10,7 @@ sxhkd \
 
 ### Requirements
 exa \
-
+neofetch \
 
 ### distro
 arch
