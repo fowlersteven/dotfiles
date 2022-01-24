@@ -12,7 +12,8 @@ sxhkd
 exa \
 neofetch \
 picom \
-nitrogen
+nitrogen \
+herbe
 
 ### distro
 arch
