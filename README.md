@@ -6,11 +6,11 @@ termite \
 rofi \
 bashrc \
 bspwm \
-sxhkd \
+sxhkd 
 
 ### Requirements
 exa \
-neofetch \
+neofetch 
 
 ### distro
 arch
