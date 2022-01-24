@@ -5,15 +5,11 @@ Custom dotfiles backups for my important apps
 termite \
 rofi \
 Thunar \
-xfce4 \
 bashrc
 
 ### Requirements
 exa \
-zenity \
-xsel \
-chromium \
 python3
 
 ### distro
-manjaro xfce
+arch
