@@ -10,7 +10,9 @@ sxhkd
 
 ### Requirements
 exa \
-neofetch 
+neofetch \
+picom \
+nitrogen
 
 ### distro
 arch
